@@ -604,8 +604,13 @@ footer li a:hover {
         font-size: 11px;
     } 
     
+    .header-content {
+    min-height: 0;
+    }
+    
     .header-content h1 {
         font-size: 40px;
+        margin-top: 100px;
     }
     
      .header-content h4 {
@@ -619,7 +624,7 @@ footer li a:hover {
         align-items: center;
         max-width: 768px;
         margin: 0 auto;
-        // padding: 0 10px;
+        padding: 0 10px;
     }
     
     .section-title {
@@ -743,8 +748,112 @@ footer li a:hover {
     }
     
     footer {
-    height: 50vh;
+        height: 50vh;
     }
+}
+
+@media (min-width: 769px) {
+    
+     .header-content h1 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    
+     .header-content h4 {
+        font-size: 14px;
+    }
+    
+    .header-content {
+        min-height: 0;
+    }
+    
+    header img {
+        height: 14px;
+    }
+    
+     nav li {
+        display: inline-block;
+        margin: 0 15px 0 0;
+        position: relative;
+        font-weight: 700;
+        font-size: 14px;
+    } 
+    
+     .section-title {
+        font-size: 40px;
+    }
+    
+     .content {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    
+    h2 {
+        font-size: 24px;
+        margin: 30px 0 15px 0;
+    }
+    
+    .photo h1 {
+        padding: 10px 0;
+        font-size: 40px;
+    }
+    
+    .opinions h4 {
+        font-size: 24px;
+    }
+    
+    .opinion p {
+        font-size: 14px;    
+    }
+    
+    .price {
+        font-size: 40px;
+    }
+    
+    .price-description {
+        line-height: 2;
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    .btn-purchase {
+        height: 60px;    
+    }
+    
+    .map img {
+        max-width: 300px; 
+    }
+    
+     .map img {
+        max-width: 500px; 
+    }
+    
+    .row-reversed {
+        flex-direction: column-reverse;
+    }
+    
+    .template h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .footer p {
+        font-size: 14px;
+    }
+    
+    footer li {
+        font-size: 14px;
+        margin: 0 16px 0 0;
+    }
+    footer::after {
+        background-size: 100%;
+        bottom: 80px;
+    }
+    
+    footer {
+        height: 50vh;
+    }
+
 }
 
 
